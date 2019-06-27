@@ -40,25 +40,11 @@
     <v-content>
       <router-view></router-view>
     </v-content>
-    <sidebar-menu
-        :menu="menu"
-        :collapsed="collapsed"
-        :theme="selectedTheme"
-        :show-one-child="true"
-        @collapse="onCollapse"
-        @item-click="onItemClick"
-      />
+   
 
 
 <!-- -->
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="/home">Home</a>
-  <a href="/">About</a>
-  <a href="/getAccount">Get account</a>
-  <a href="/updateAccount">Update account</a>
-  <a href="/addAccount">Add account</a>
-</div>
+
 
 
 <!-- Use any element to open the sidenav -->

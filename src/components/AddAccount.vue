@@ -77,7 +77,16 @@
       </v-flex>
     </v-layout>
   </v-container>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="/home">Home</a>
+  <a href="/">About</a>
+  <a href="/getAccount">Get account</a>
+  <a href="/updateAccount">Update account</a>
+  <a href="/addAccount">Add account</a>
+</div>
   </v-app>
+  
 </template>
 
 <script>
