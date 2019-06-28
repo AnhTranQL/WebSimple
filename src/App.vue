@@ -1,6 +1,6 @@
 <template>
   <v-app color= "powderblue">
-    <v-navigation-drawer v-model="sidebar">
+    <v-navigation-drawer v-model="sidebar"><!-- Cái menu một bên-->
   <v-list>
     <v-list-tile
       v-for="item in menuItems"
@@ -14,7 +14,7 @@
   </v-list>
 </v-navigation-drawer>
 
-    <v-toolbar app >
+    <v-toolbar app > <!-- Cái ở trên thanh ngang-->
       <span class="hidden-sm-and-up">
         <v-toolbar-side-icon @click="sidebar = !sidebar">
         </v-toolbar-side-icon>
@@ -67,11 +67,7 @@
         collapsed: false,
         themes: ['', 'white-theme'],
         selectedTheme: 'white-theme',
-        sidebar: false,
-        menuItems: [
-          { title: 'Sign Up', path: '/signup' },
-          { title: 'Sign In', path: '/signin' }
-        ]
+        sidebar: false
       }
     },
     computed: {

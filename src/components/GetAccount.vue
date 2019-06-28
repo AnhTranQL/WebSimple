@@ -84,9 +84,8 @@
       return {
         sidebar: false,
         menuItems: [
-          { title: 'Get Account', path: '/getAccount' },
-          { title: 'Update Account', path: '/updateAccount' },
-          { title: 'Add Account', path: '/addAccount' }
+          { title: 'Log out', path: '/logout' }
+
         ]
       }
     },

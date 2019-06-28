@@ -21,6 +21,15 @@
                 v-model="email"
                 required></v-text-field>
             </v-flex>
+             <v-flex>
+              <v-text-field
+                name="firstname"
+                label="Firstname"
+                id="firstname"
+                type="firstname"
+                v-model="firstname"
+                required></v-text-field>
+            </v-flex>
             <v-flex>
               <v-text-field
                 name="password"
@@ -56,6 +65,7 @@ export default {
   data () {
     return {
       email: '',
+      firstname: '',
       password: '',
       passwordConfirm: '',
       alert: false
